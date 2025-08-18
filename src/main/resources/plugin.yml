@@ -1,0 +1,23 @@
+name: RedstoneStateSaver
+main: dev.cayadev.redstonestatesaver.RedstoneStateSaver
+version: 1.0.0
+api-version: 1.21
+authors:
+  - CaYaDev
+commands:
+  rss:
+    description: RedstoneStateSaver komutları
+    usage: /<command>
+    permission: rss.use
+permissions:
+  rss.use:
+    default: true
+  rss.admin:
+    description: Yönetici yetkileri (reload/save)
+    default: op
+  rss.bypass:
+    description: Korumayı atla ve uyarılara cevap ver
+    default: op
+  rss.notify:
+    description: Uyarıları alır
+    default: op

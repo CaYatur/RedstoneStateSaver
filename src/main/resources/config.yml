@@ -1,0 +1,15 @@
+# RedstoneStateSaver yapılandırma (Türkçe)
+save-on-change: true
+save-interval-seconds: 60
+protection:
+  enabled: true
+warn:
+  threshold: 200 # aynı blok için aralık içinde tetikleme sayısı (daha büyük değer repeater false-pozitiflerini azaltır)
+  window-seconds: 10 # uyarı sayım penceresi (saniye)
+  allow-radius-default: 1 # tıklamayla izin verildiğinde varsayılan çevre chunk yarıçapı
+permissions:
+  bypass: rss.bypass
+  notify: rss.notify
+messages:
+  warning: "§c[RSS] Yoğun redstone sistemi tespit edildi: %x% %y% %z%"
+  protected: "§cBu sistem korumalıdır."
